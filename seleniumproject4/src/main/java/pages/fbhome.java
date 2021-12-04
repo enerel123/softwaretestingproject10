@@ -42,17 +42,9 @@ public void password(String passtext) {
 public void loginclick() {
 	login.click();
 	
+
 }
-
-public void findfblinks() {
-	List<WebElement> listoflinks= driver.findElements(By.tagName("a"));
-	System.out.println("Total links are= "+listoflinks.size());
-	
-	for (int i=0;i<listoflinks.size();i++) {
-		System.out.println(listoflinks.get(i).getAttribute("hreg"));
-	}
-	}
-	
+}
 	
 
 
@@ -63,4 +55,3 @@ public void findfblinks() {
 
 
 
-}}
